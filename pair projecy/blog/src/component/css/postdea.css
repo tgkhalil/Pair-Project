@@ -1,0 +1,21 @@
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .post-title {
+    margin: 0;
+  }
+  
+  .post-content {
+    margin: 0;
+  }
+  li{
+    list-style-type: none;;
+  }
